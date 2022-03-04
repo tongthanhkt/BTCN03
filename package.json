@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "btcn02",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongthanhkt/BTCN03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tongthanhkt/BTCN03/issues"
+  },
+  "homepage": "https://github.com/tongthanhkt/BTCN03#readme",
+  "description": ""
+}
