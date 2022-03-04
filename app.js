@@ -5,9 +5,7 @@ const path = require("path");
 app.use(express.static("public"));
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
-app.listen(3000, (req, res) => {
-  console.log("Server connected on port 3000...");
-})
+app.listen(process.env.PORT || 5000)
 app.get("/", (req, res) => {
 
   const data = {
